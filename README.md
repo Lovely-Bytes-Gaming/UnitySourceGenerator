@@ -33,6 +33,6 @@ In order for the generator to be able to add any logic, your class must be decla
 
 ![Alt text](README_sources/class_decl.png)
 
-The code examples above are from an example project for testing the generator output, found here:
+The code examples above are from a sandbox project for testing the generator output, found here:
 
 https://github.com/Lovely-Bytes-Gaming/SourceGeneratorSandbox
