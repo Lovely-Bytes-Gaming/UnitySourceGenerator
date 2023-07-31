@@ -1,6 +1,6 @@
 # Unity Source Generator
 
-This is a small example for a source generator for extending Unity scripting.
+This is a small example of a source generator for extending Unity scripting.
 It is based on the following resources:
 
 https://medium.com/@EnescanBektas/using-source-generators-in-the-unity-game-engine-140ff0cd0dc
@@ -23,16 +23,16 @@ For the above example, the compile-time auto-generated code looks like this (I p
 
 ![Alt text](README_sources/auto-generated.png)
 
-The auto generated code is not written to a file, as it is only generated at compile time. However, it is still visible within Visual Studio, and Intellisense is aware of it, so no error squiggles (Yay!)
+The auto generated code is not written to any file, however, it is still visible within Visual Studio, and Intellisense is aware of it, so no error squiggles (Yay!)
 
 On the user side, you can call the generated function e.g. at Awake time:
 
 ![Alt text](README_sources/Initilization.png)
 
-In order for the generator to be able to add additional logic to your class, it must be declared with the **partial** keyword:
+In order for the generator to be able to add any logic, your class must be declared with the **partial** keyword:
 
 ![Alt text](README_sources/class_decl.png)
 
-The code examples above are from an example project I created for fooling around with the compiled generator:
+The code examples above are from an example project for testing the generator output, found here:
 
 https://github.com/Lovely-Bytes-Gaming/SourceGeneratorSandbox
